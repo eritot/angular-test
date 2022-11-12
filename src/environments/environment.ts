@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  angularApi: 'http://localhost:8000'
+  angularApi: 'http://localhost:8000',
+  angularApi2: 'http://angular-test-backend:8000'
 };
 
 /*

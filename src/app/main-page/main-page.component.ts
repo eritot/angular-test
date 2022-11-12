@@ -24,4 +24,15 @@ export class MainPageComponent implements OnInit {
     })
   }
 
+  showMessage2() {
+    this.api.getMessage2().subscribe({
+      next(value) {
+        console.log(value);
+      },
+      error(err) {
+        console.log(err);
+      },
+    });
+  }
+
 }

@@ -14,4 +14,8 @@ export class DataService {
     return this.httpClient.get(environment.angularApi + '/api/test')
   }
 
+  getMessage2(): Observable<object> {
+    return this.httpClient.get(environment.angularApi2 + '/api/test')
+  }
+
 }
